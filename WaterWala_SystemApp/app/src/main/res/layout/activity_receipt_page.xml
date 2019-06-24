@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiptPage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:text="WaterWala"
+                android:textSize="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Thank u for order,please pay to the supplier on delivery"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="OrderId : "
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/orderid"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:text=" "
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Delivery Date : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/tv_Date"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Expected Time : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/tv_Time"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="No. of Cans : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/txtcans"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Total : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="8dp"/>
+            <TextView
+                android:id="@+id/txttotal"
+                android:layout_width="150dp"
+                android:textColor="#000000"
+                android:layout_height="30dp"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="place another order"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="150dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

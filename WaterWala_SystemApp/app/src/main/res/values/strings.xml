@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WaterWala</string>
+
+    <string name="bisleri"> <b>Bislari</b> \n 20 Liters purified \n water can from the \n house of Bisleri. \n <b>Price:Rs 75/- </b></string>
+    <string name="normal"> <b>Bislari</b> \n 20 Liters purified \n water can from the \n house of Normal. \n <b>Price:Rs 45/- </b></string>
+
+</resources>
